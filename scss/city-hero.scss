@@ -1,0 +1,125 @@
+.city-hero{
+    max-width: 981px;
+    min-height: 413px;
+    background-color: #000;
+    margin: 0 auto;
+    margin-top: 141px;
+    position: relative;
+
+    img{
+        position: absolute;
+        width: 100%;
+        height: 413px;
+        object-fit: cover;
+        opacity: 0.6;
+    }
+
+    .city-hero-header{
+        width: 100%;
+        color: #fff;
+        font-size: 80px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-family: ProximaNovaExtraCondensed;
+        // background-color: green;
+        padding: 0 20px;
+    }
+
+    .city-hero-text{
+        max-width: 370px;
+        height: 30px;
+        color: #fff;
+        font-size: 30px;
+        position: absolute;
+        font-family: ProximaNovaExtraCondensed;
+        // background-color: blue;
+        bottom: 0;
+        right: 0;
+        padding: 0 5px;
+    }
+}
+
+.city-images-holder{
+    max-width: 978px;
+    min-height: 347px;
+    // background-color: aqua;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .city-image{
+        max-width: 298px;
+        min-height: 347px;
+        // background-color: pink;
+
+        img{
+            width: 298px;
+            height: 347px;
+            object-fit: cover;
+        }
+
+    }
+}
+
+.city-bottom-text{
+    max-width: 981px;
+    min-height: 776px;
+    // background-color: burlywood;
+    margin: 0 auto;
+    margin-top: 29px;
+    padding: 0 20px;
+
+    .bottom-city-header{
+        color: #000;
+        text-decoration: underline;
+        font-size: 60px;
+        font-family: ProximaNovaExtraCondensed;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 10px;
+        margin-top: 70px;
+    }
+
+    .bottom-city-text{
+        max-width: 980px;
+        color: #000;
+        font-size: 16px;
+        font-family: GillSans;
+        margin-top: 38px;
+    }
+}
+
+.bottom-city-button{
+    max-width: 140px;
+    height: 40px;
+    // background-color: green;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    button{
+        width: 133px;
+        min-height: 40px;
+        color: #fff;
+        background-color: #79ADDC;
+        border: none;
+        border-radius: 50px;
+        font-size: 15px;
+        font-family: GillSans;
+    }
+
+}
+
+@media all and (max-width: 1040px) {
+    .city-images-holder{
+        flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+    }
+   
+}

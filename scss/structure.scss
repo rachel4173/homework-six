@@ -1,0 +1,68 @@
+@use "variables";
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+#app{
+    max-width: variables.$content-width;
+    margin: 0 auto;
+    min-height: variables.$min-height;
+    background-color: #fff;
+    position: relative;
+}
+
+@font-face {
+    font-family: GillSans;
+    src: url(../fonts/Gill\ Sans.otf);
+}
+
+@font-face {
+    font-family: ProximaNovaExtraCondensed;
+    src: url(../fonts/Proxima\ Nova\ ScOsf\ Extra\ Condensed\ Thin.otf);
+}
+
+@font-face {
+    font-family: GillSansItalic;
+    src: url(../fonts/Gill\ Sans\ Italic.otf);
+}
+
+@font-face {
+    font-family: GillSansLight;
+    src: url(../fonts/Gill\ Sans\ Light.otf);
+}
+
+.form{
+    width: 100%;
+    font-size: 60px;
+    font-family: ProximaNovaExtraCondensed;
+    margin-left: 225px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    margin-top: 311px;
+}
+
+@media screen and (max-width: 768px) {
+    .form{
+        // background-color: blue;
+        width: 170px;
+        font-size: 40px;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+

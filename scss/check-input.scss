@@ -1,0 +1,78 @@
+.check-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    margin-top: 40px;
+
+    .checkout {
+        font-size: 18px;
+        font-family: GillSansLight;
+        margin-right: 20px;
+        white-space: nowrap; // Prevents text from wrapping
+    }
+
+    .check{
+        font-size: 18px;
+        font-family: GillSansLight;
+        margin-right: 20px;
+        white-space: nowrap;
+    }
+
+    .check-holder {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    input {
+        width: 720px;
+        height: 58px;
+        border: solid 1px blue;
+        padding: 20px;
+    }
+
+    .check-box {
+        position: absolute;
+        right: 20px;
+        font-size: 18px;
+        color: #000;
+    }
+
+    @media screen and (max-width: 1024px) {
+        input {
+            width: 400px; 
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .check-input {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .checkout {
+            margin-right: 10px;
+        }
+        .check{
+            margin-right: 10px;
+        }
+
+        input {
+            width: 350px; 
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .check-input {
+            flex-direction: column; 
+            align-items: center;
+            gap: 10px;
+        }
+
+        input {
+            width: 280px; 
+        }
+    }
+}

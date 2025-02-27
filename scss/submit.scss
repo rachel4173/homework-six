@@ -1,0 +1,25 @@
+.submit{
+    height: 65px;
+    // background-color: indigo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+
+    button{
+        height: 60.59px;
+        width: 825px;
+        background-color: #79ADDC;
+        border: none;
+        border-radius: 40px;
+        
+        p{
+            font-size: 15px;
+            font-family: GillSans;
+            margin-top: 15px;
+            color: #fff;
+        }
+    }
+
+
+}

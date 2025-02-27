@@ -1,0 +1,429 @@
+.tours-content-holder{
+    max-width: 818px;
+    min-height: 1022px;
+    // background-color: aqua;
+    margin: 0 auto;
+    margin-top: 48px;
+    
+
+    .tours-picture-row{
+        max-width: 818px;
+        min-height: 304px;
+        // background-color: indigo;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 55px;
+
+        .tours-picture1{
+            width: 236px;
+            height: 304px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url(../images/tour-01.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            
+
+            .tour-picture-header{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 60px;
+                text-align: center;
+                margin-top: 47px;
+                margin-bottom: -5px;
+            }
+
+            .tour-picture-text{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 30px;
+                text-align: center;
+
+            }
+            .learnMore-button{
+                height: 40px;
+                // background-color: green;
+                display: flex;
+                justify-content: center;
+                margin-top: 57px;
+
+                button {
+                    color: #fff;
+                    background-color: #79ADDC;
+                    width: 133px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    text-align: center;
+                }
+            }
+
+            
+        }
+
+        .tours-picture2{
+            width: 236px;
+            height: 304px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url(../images/tour-02.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            .tour-picture-header{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 60px;
+                text-align: center;
+                margin-top: 47px;
+                margin-bottom: -5px;
+            }
+
+            .tour-picture-text{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 30px;
+                text-align: center;
+
+            }
+            .learnMore-button{
+                height: 40px;
+                // background-color: green;
+                display: flex;
+                justify-content: center;
+                margin-top: 57px;
+
+                button {
+                    color: #fff;
+                    background-color: #79ADDC;
+                    width: 133px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    text-align: center;
+                }
+            }
+        }
+
+        .tours-picture3{
+            width: 236px;
+            height: 306px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url(../images/tour-03.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            .tour-picture-header{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 60px;
+                text-align: center;
+                margin-top: 47px;
+                margin-bottom: -5px;
+            }
+
+            .tour-picture-text{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 30px;
+                text-align: center;
+
+            }
+            .learnMore-button{
+                height: 40px;
+                // background-color: green;
+                display: flex;
+                justify-content: center;
+                margin-top: 57px;
+
+                button {
+                    color: #fff;
+                    background-color: #79ADDC;
+                    width: 133px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    text-align: center;
+                }
+            }
+        }
+
+        .tours-picture4 {
+            width: 236px;
+            height: 306px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url(../images/tour-04.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            .tour-picture-header{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 60px;
+                text-align: center;
+                margin-top: 47px;
+                margin-bottom: -5px;
+            }
+
+            .tour-picture-text{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 30px;
+                text-align: center;
+
+            }
+            .learnMore-button{
+                height: 40px;
+                // background-color: green;
+                display: flex;
+                justify-content: center;
+                margin-top: 57px;
+
+                button {
+                    color: #fff;
+                    background-color: #79ADDC;
+                    width: 133px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    text-align: center;
+                }
+            }
+        }
+
+        .tours-picture5 {
+            width: 236px;
+            height: 306px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url(../images/tour-05.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            .tour-picture-header{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 60px;
+                text-align: center;
+                margin-top: 47px;
+                margin-bottom: -5px;
+            }
+
+            .tour-picture-text{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 30px;
+                text-align: center;
+
+            }
+            .learnMore-button{
+                height: 40px;
+                // background-color: green;
+                display: flex;
+                justify-content: center;
+                margin-top: 57px;
+
+                button {
+                    color: #fff;
+                    background-color: #79ADDC;
+                    width: 133px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    text-align: center;
+                }
+            }
+        }
+
+        .tours-picture6 {
+            width: 236px;
+            height: 306px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url(../images/tour-06.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            .tour-picture-header{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 60px;
+                text-align: center;
+                margin-top: 47px;
+                margin-bottom: -5px;
+            }
+
+            .tour-picture-text{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 30px;
+                text-align: center;
+
+            }
+            .learnMore-button{
+                height: 40px;
+                // background-color: green;
+                display: flex;
+                justify-content: center;
+                margin-top: 57px;
+
+                button {
+                    color: #fff;
+                    background-color: #79ADDC;
+                    width: 133px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    text-align: center;
+                }
+            }
+        }
+
+        .tours-picture7 {
+            width: 236px;
+            height: 306px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url(../images/tour-07.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            .tour-picture-header{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 60px;
+                text-align: center;
+                margin-top: 47px;
+                margin-bottom: -5px;
+            }
+
+            .tour-picture-text{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 30px;
+                text-align: center;
+
+            }
+            .learnMore-button{
+                height: 40px;
+                // background-color: green;
+                display: flex;
+                justify-content: center;
+                margin-top: 57px;
+
+                button {
+                    color: #fff;
+                    background-color: #79ADDC;
+                    width: 133px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    text-align: center;
+                }
+            }
+        }
+
+        .tours-picture8 {
+            width: 236px;
+            height: 306px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url(../images/tour-08.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            .tour-picture-header{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 60px;
+                text-align: center;
+                margin-top: 47px;
+                margin-bottom: -5px;
+            }
+
+            .tour-picture-text{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 30px;
+                text-align: center;
+
+            }
+            .learnMore-button{
+                height: 40px;
+                // background-color: green;
+                display: flex;
+                justify-content: center;
+                margin-top: 57px;
+
+                button {
+                    color: #fff;
+                    background-color: #79ADDC;
+                    width: 133px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    text-align: center;
+                }
+            }
+        }
+
+        .tours-picture9 {
+            width: 236px;
+            height: 306px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url(../images/tour-09.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            .tour-picture-header{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 60px;
+                text-align: center;
+                margin-top: 47px;
+                margin-bottom: -5px;
+            }
+
+            .tour-picture-text{
+                color: #fff;
+                font-family: ProximaNovaExtraCondensed;
+                font-size: 30px;
+                text-align: center;
+
+            }
+            .learnMore-button{
+                height: 40px;
+                // background-color: green;
+                display: flex;
+                justify-content: center;
+                margin-top: 57px;
+
+                button {
+                    color: #fff;
+                    background-color: #79ADDC;
+                    width: 133px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    text-align: center;
+                }
+            }
+        }
+
+        
+    }
+
+}

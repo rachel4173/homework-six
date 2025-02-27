@@ -1,0 +1,78 @@
+
+.top-inputs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0 40px;
+
+    input {
+        border: solid 1px blue;
+        height: 58px;
+        padding-left: 20px;
+        color: #000;
+        font-family: GillSansLight;
+        font-size: 18px;
+    }
+
+    .input-holder {
+        position: relative;
+        color: #000;
+    }
+
+    .small {
+        width: 344px;
+    }
+
+    .big {
+        width: 453px;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    .top-inputs{
+        flex-direction: column;
+        align-items: center;                        
+        gap: 20px; 
+    }
+                            
+            
+    input {
+        width: 100%;
+    }
+            
+    .small{
+        width: 100%;
+    }
+
+    .big {
+        width: 100%;
+    }
+}
+
+  @media screen and (max-width: 505px) {
+        .top-inputs{
+            flex-direction: column; 
+            gap: 20px; 
+        }
+      
+
+      .small {
+          width: 90%; 
+          max-width: 250px; 
+          font-size: 14px;
+      }
+
+      .big {
+          width: 90%;
+          max-width: 320px;
+          font-size: 14px;
+      }
+
+      input {
+          height: 45px;
+      }
+  }
+  
+
+                        

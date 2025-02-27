@@ -1,0 +1,115 @@
+.content{
+    max-width: 1000px;
+    min-height: 200px;
+    // background-color: indigo;
+    margin: 0 auto;
+
+    .top-container{
+        min-height: 200px;
+        // background-color: pink;
+
+    }
+
+    .about-top{
+        // background-color: red;
+        min-height: 214px;
+        margin-top: 182.5px;
+        padding: 0 20px;
+        .about-header{
+            font-family: ProximaNovaExtraCondensed;
+            font-size: 60px;
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 10px;
+            letter-spacing: 2px;
+        }
+
+        .about-paragraph{
+            font-family: GillSans;
+            font-size: 16px;
+            max-width: 980px;
+            // background-color: orange;
+        }
+    }
+
+    .bottom-container{
+        min-height: 200px;
+        // background-color: green;
+        margin-bottom: 179px;
+        padding: 0 20px;
+
+        .bottom-quote-header{
+            font-family: ProximaNovaExtraCondensed;
+            font-size: 40px;
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 10px;
+            margin-top: 65px;
+            margin-bottom: 39px;
+            letter-spacing: 2px;
+        }
+
+        .quote{
+            max-width: 676px;
+            min-height: 150px;
+            // background-color: antiquewhite;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+
+            .quote-image-holder{
+                width: 260px;
+                height: 150px;
+                // background-color: blue;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                }
+            }
+
+            .quote-text-author{
+                width: 385px;
+                height: 150px;
+                // background-color: aqua;
+                margin: auto;
+                position: relative;
+                font-size: 16px;
+                font-family: GillSans;
+
+                .author{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    color: #79ADDC;
+                    font-family: ProximaNovaExtraCondensed;
+                    font-size: 20px;
+                    letter-spacing: 2px;
+                    
+                }
+
+            }
+        }
+    }
+}
+
+@media all and (max-width: 676px) {
+            .content{
+                .bottom-container{
+                    .quote {
+                        flex-direction: column;
+                        width: 260px;
+                        margin: 0 auto 20px auto;
+                
+                .quote-text-author{
+                    width: 100%;
+                    margin-top: 20px;
+            
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,27 @@
+.tours-hero{
+    max-width: 981px;
+    min-height: 200px;
+    // background-color: green;
+    margin: 0 auto;
+    margin-top: 162px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../images/tours-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p{
+        max-width: 226px;
+        color: #fff;
+        font-size: 60px;
+        font-family:ProximaNovaExtraCondensed;
+        letter-spacing: 5px;
+        text-align: center;
+        // background-color: blue;
+
+    }
+    
+}
