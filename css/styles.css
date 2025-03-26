@@ -775,7 +775,7 @@ footer .socials {
     padding-left: 15px;
   }
 }
-.tours-hero {
+.tours-holder .tours-hero {
   max-width: 981px;
   min-height: 200px;
   margin: 0 auto;
@@ -788,7 +788,7 @@ footer .socials {
   align-items: center;
   justify-content: center;
 }
-.tours-hero p {
+.tours-holder .tours-hero p {
   max-width: 226px;
   color: #fff;
   font-size: 60px;
@@ -796,14 +796,13 @@ footer .socials {
   letter-spacing: 5px;
   text-align: center;
 }
-
-.tours-content-holder {
+.tours-holder .tours-content-holder {
   max-width: 818px;
   min-height: 1022px;
   margin: 0 auto;
   margin-top: 48px;
 }
-.tours-content-holder .tours-picture-row {
+.tours-holder .tours-content-holder .tours-picture-row {
   max-width: 818px;
   min-height: 304px;
   display: flex;
@@ -811,7 +810,7 @@ footer .socials {
   justify-content: space-between;
   margin-bottom: 55px;
 }
-.tours-content-holder .tours-picture-row .tours-picture1 {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture1 {
   width: 236px;
   height: 304px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour-01.jpg);
@@ -819,7 +818,7 @@ footer .socials {
   background-position: center;
   background-size: cover;
 }
-.tours-content-holder .tours-picture-row .tours-picture1 .tour-picture-header {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture1 .tour-picture-header {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 60px;
@@ -827,19 +826,19 @@ footer .socials {
   margin-top: 47px;
   margin-bottom: -5px;
 }
-.tours-content-holder .tours-picture-row .tours-picture1 .tour-picture-text {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture1 .tour-picture-text {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 30px;
   text-align: center;
 }
-.tours-content-holder .tours-picture-row .tours-picture1 .learnMore-button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture1 .learnMore-button {
   height: 40px;
   display: flex;
   justify-content: center;
   margin-top: 57px;
 }
-.tours-content-holder .tours-picture-row .tours-picture1 .learnMore-button button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture1 .learnMore-button button {
   color: #fff;
   background-color: #79ADDC;
   width: 133px;
@@ -849,7 +848,7 @@ footer .socials {
   cursor: pointer;
   text-align: center;
 }
-.tours-content-holder .tours-picture-row .tours-picture2 {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture2 {
   width: 236px;
   height: 304px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour-02.jpg);
@@ -857,7 +856,7 @@ footer .socials {
   background-position: center;
   background-size: cover;
 }
-.tours-content-holder .tours-picture-row .tours-picture2 .tour-picture-header {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture2 .tour-picture-header {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 60px;
@@ -865,19 +864,19 @@ footer .socials {
   margin-top: 47px;
   margin-bottom: -5px;
 }
-.tours-content-holder .tours-picture-row .tours-picture2 .tour-picture-text {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture2 .tour-picture-text {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 30px;
   text-align: center;
 }
-.tours-content-holder .tours-picture-row .tours-picture2 .learnMore-button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture2 .learnMore-button {
   height: 40px;
   display: flex;
   justify-content: center;
   margin-top: 57px;
 }
-.tours-content-holder .tours-picture-row .tours-picture2 .learnMore-button button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture2 .learnMore-button button {
   color: #fff;
   background-color: #79ADDC;
   width: 133px;
@@ -887,7 +886,7 @@ footer .socials {
   cursor: pointer;
   text-align: center;
 }
-.tours-content-holder .tours-picture-row .tours-picture3 {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture3 {
   width: 236px;
   height: 306px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour-03.jpg);
@@ -895,7 +894,7 @@ footer .socials {
   background-position: center;
   background-size: cover;
 }
-.tours-content-holder .tours-picture-row .tours-picture3 .tour-picture-header {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture3 .tour-picture-header {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 60px;
@@ -903,19 +902,19 @@ footer .socials {
   margin-top: 47px;
   margin-bottom: -5px;
 }
-.tours-content-holder .tours-picture-row .tours-picture3 .tour-picture-text {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture3 .tour-picture-text {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 30px;
   text-align: center;
 }
-.tours-content-holder .tours-picture-row .tours-picture3 .learnMore-button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture3 .learnMore-button {
   height: 40px;
   display: flex;
   justify-content: center;
   margin-top: 57px;
 }
-.tours-content-holder .tours-picture-row .tours-picture3 .learnMore-button button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture3 .learnMore-button button {
   color: #fff;
   background-color: #79ADDC;
   width: 133px;
@@ -925,7 +924,7 @@ footer .socials {
   cursor: pointer;
   text-align: center;
 }
-.tours-content-holder .tours-picture-row .tours-picture4 {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture4 {
   width: 236px;
   height: 306px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour-04.jpg);
@@ -933,7 +932,7 @@ footer .socials {
   background-position: center;
   background-size: cover;
 }
-.tours-content-holder .tours-picture-row .tours-picture4 .tour-picture-header {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture4 .tour-picture-header {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 60px;
@@ -941,19 +940,19 @@ footer .socials {
   margin-top: 47px;
   margin-bottom: -5px;
 }
-.tours-content-holder .tours-picture-row .tours-picture4 .tour-picture-text {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture4 .tour-picture-text {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 30px;
   text-align: center;
 }
-.tours-content-holder .tours-picture-row .tours-picture4 .learnMore-button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture4 .learnMore-button {
   height: 40px;
   display: flex;
   justify-content: center;
   margin-top: 57px;
 }
-.tours-content-holder .tours-picture-row .tours-picture4 .learnMore-button button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture4 .learnMore-button button {
   color: #fff;
   background-color: #79ADDC;
   width: 133px;
@@ -963,7 +962,7 @@ footer .socials {
   cursor: pointer;
   text-align: center;
 }
-.tours-content-holder .tours-picture-row .tours-picture5 {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture5 {
   width: 236px;
   height: 306px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour-05.jpg);
@@ -971,7 +970,7 @@ footer .socials {
   background-position: center;
   background-size: cover;
 }
-.tours-content-holder .tours-picture-row .tours-picture5 .tour-picture-header {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture5 .tour-picture-header {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 60px;
@@ -979,19 +978,19 @@ footer .socials {
   margin-top: 47px;
   margin-bottom: -5px;
 }
-.tours-content-holder .tours-picture-row .tours-picture5 .tour-picture-text {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture5 .tour-picture-text {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 30px;
   text-align: center;
 }
-.tours-content-holder .tours-picture-row .tours-picture5 .learnMore-button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture5 .learnMore-button {
   height: 40px;
   display: flex;
   justify-content: center;
   margin-top: 57px;
 }
-.tours-content-holder .tours-picture-row .tours-picture5 .learnMore-button button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture5 .learnMore-button button {
   color: #fff;
   background-color: #79ADDC;
   width: 133px;
@@ -1001,7 +1000,7 @@ footer .socials {
   cursor: pointer;
   text-align: center;
 }
-.tours-content-holder .tours-picture-row .tours-picture6 {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture6 {
   width: 236px;
   height: 306px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour-06.jpg);
@@ -1009,7 +1008,7 @@ footer .socials {
   background-position: center;
   background-size: cover;
 }
-.tours-content-holder .tours-picture-row .tours-picture6 .tour-picture-header {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture6 .tour-picture-header {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 60px;
@@ -1017,19 +1016,19 @@ footer .socials {
   margin-top: 47px;
   margin-bottom: -5px;
 }
-.tours-content-holder .tours-picture-row .tours-picture6 .tour-picture-text {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture6 .tour-picture-text {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 30px;
   text-align: center;
 }
-.tours-content-holder .tours-picture-row .tours-picture6 .learnMore-button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture6 .learnMore-button {
   height: 40px;
   display: flex;
   justify-content: center;
   margin-top: 57px;
 }
-.tours-content-holder .tours-picture-row .tours-picture6 .learnMore-button button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture6 .learnMore-button button {
   color: #fff;
   background-color: #79ADDC;
   width: 133px;
@@ -1039,7 +1038,7 @@ footer .socials {
   cursor: pointer;
   text-align: center;
 }
-.tours-content-holder .tours-picture-row .tours-picture7 {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture7 {
   width: 236px;
   height: 306px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour-07.jpg);
@@ -1047,7 +1046,7 @@ footer .socials {
   background-position: center;
   background-size: cover;
 }
-.tours-content-holder .tours-picture-row .tours-picture7 .tour-picture-header {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture7 .tour-picture-header {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 60px;
@@ -1055,19 +1054,19 @@ footer .socials {
   margin-top: 47px;
   margin-bottom: -5px;
 }
-.tours-content-holder .tours-picture-row .tours-picture7 .tour-picture-text {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture7 .tour-picture-text {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 30px;
   text-align: center;
 }
-.tours-content-holder .tours-picture-row .tours-picture7 .learnMore-button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture7 .learnMore-button {
   height: 40px;
   display: flex;
   justify-content: center;
   margin-top: 57px;
 }
-.tours-content-holder .tours-picture-row .tours-picture7 .learnMore-button button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture7 .learnMore-button button {
   color: #fff;
   background-color: #79ADDC;
   width: 133px;
@@ -1077,7 +1076,7 @@ footer .socials {
   cursor: pointer;
   text-align: center;
 }
-.tours-content-holder .tours-picture-row .tours-picture8 {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture8 {
   width: 236px;
   height: 306px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour-08.jpg);
@@ -1085,7 +1084,7 @@ footer .socials {
   background-position: center;
   background-size: cover;
 }
-.tours-content-holder .tours-picture-row .tours-picture8 .tour-picture-header {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture8 .tour-picture-header {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 60px;
@@ -1093,19 +1092,19 @@ footer .socials {
   margin-top: 47px;
   margin-bottom: -5px;
 }
-.tours-content-holder .tours-picture-row .tours-picture8 .tour-picture-text {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture8 .tour-picture-text {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 30px;
   text-align: center;
 }
-.tours-content-holder .tours-picture-row .tours-picture8 .learnMore-button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture8 .learnMore-button {
   height: 40px;
   display: flex;
   justify-content: center;
   margin-top: 57px;
 }
-.tours-content-holder .tours-picture-row .tours-picture8 .learnMore-button button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture8 .learnMore-button button {
   color: #fff;
   background-color: #79ADDC;
   width: 133px;
@@ -1115,7 +1114,7 @@ footer .socials {
   cursor: pointer;
   text-align: center;
 }
-.tours-content-holder .tours-picture-row .tours-picture9 {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture9 {
   width: 236px;
   height: 306px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour-09.jpg);
@@ -1123,7 +1122,7 @@ footer .socials {
   background-position: center;
   background-size: cover;
 }
-.tours-content-holder .tours-picture-row .tours-picture9 .tour-picture-header {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture9 .tour-picture-header {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 60px;
@@ -1131,19 +1130,19 @@ footer .socials {
   margin-top: 47px;
   margin-bottom: -5px;
 }
-.tours-content-holder .tours-picture-row .tours-picture9 .tour-picture-text {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture9 .tour-picture-text {
   color: #fff;
   font-family: ProximaNovaExtraCondensed;
   font-size: 30px;
   text-align: center;
 }
-.tours-content-holder .tours-picture-row .tours-picture9 .learnMore-button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture9 .learnMore-button {
   height: 40px;
   display: flex;
   justify-content: center;
   margin-top: 57px;
 }
-.tours-content-holder .tours-picture-row .tours-picture9 .learnMore-button button {
+.tours-holder .tours-content-holder .tours-picture-row .tours-picture9 .learnMore-button button {
   color: #fff;
   background-color: #79ADDC;
   width: 133px;
